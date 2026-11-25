@@ -70,6 +70,6 @@ console.log("hello"*2); //NaN
 
 //Pratice question 6
  let price = "100"
-  console.log(typeof price);            //String
-  console.log(typeof Number(price));    //Number
+  console.log(typeof price);            //String -> because original value is string
+  console.log(typeof Number(price));    //Number -> converts "100" into the number 100
   
